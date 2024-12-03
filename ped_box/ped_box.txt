@@ -1,0 +1,74 @@
+Configuration	ped_box
+STM32CubeMX 	6.12.1
+Date	11/17/2024
+MCU	STM32G491RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN8 Single-ended	ADC1_IN8	PC2
+ADC1	IN9 Single-ended	ADC1_IN9	PC3
+ADC1	Temperature Sensor Channel	ADC1_TempSens_Input	VP_ADC1_TempSens_Input
+FDCAN1	Activated	FDCAN1_RX	PA11
+FDCAN1	Activated	FDCAN1_TX	PA12
+LPUART1	Asynchronous	LPUART1_RX	PA3
+LPUART1	Asynchronous	LPUART1_TX	PA2
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+10	PC2	ADC1_IN8	
+11	PC3	ADC1_IN9	
+14	PA2	LPUART1_TX	
+17	PA3	LPUART1_RX	
+45	PA11	FDCAN1_RX	
+46	PA12	FDCAN1_TX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN8 Single-ended	ADC1_IN8	PC2
+ADC1	IN9 Single-ended	ADC1_IN9	PC3
+ADC1	Temperature Sensor Channel	ADC1_TempSens_Input	VP_ADC1_TempSens_Input
+FDCAN1	Activated	FDCAN1_RX	PA11
+FDCAN1	Activated	FDCAN1_TX	PA12
+LPUART1	Asynchronous	LPUART1_RX	PA3
+LPUART1	Asynchronous	LPUART1_TX	PA2
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+10	PC2	ADC1_IN8	
+11	PC3	ADC1_IN9	
+14	PA2	LPUART1_TX	
+17	PA3	LPUART1_RX	
+45	PA11	FDCAN1_RX	
+46	PA12	FDCAN1_TX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ped_box
+Project Folder : C:\Users\kehrenj\STM32CubeIDE\workspace_1.16.1\ped_box
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G4 V1.6.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Add necessary library files as reference in the toolchain project configuration file
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : Yes
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
