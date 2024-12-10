@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define POT2_Pin GPIO_PIN_11
+#define POT2_GPIO_Port GPIOB
+#define POT1_Pin GPIO_PIN_12
+#define POT1_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
